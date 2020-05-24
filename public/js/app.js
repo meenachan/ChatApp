@@ -8,6 +8,7 @@ var name;
 function show(){  
     document.getElementById('index').style.display="none";
 document.getElementById('chat').style.display="block";
+document.getElementById('footer').style.display="none";
 var  namein = document.getElementById('user-name').value;
   name = namein;
   //  const name = prompt('Whats your name?')
