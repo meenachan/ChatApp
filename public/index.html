@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/instyle.css">
+    <title>ChatRoom</title>
+</head>
+<body>
+    <div id="index">
+    <div class="navbar">
+        <div class="menu">
+            <h1 class="logo">Chat</h1>
+        </div>
+    </div>
+    <div  class="register">
+        <div class="card-container">
+            <div class="name">
+                <p>User Name</p>
+                <input type="text" id="user-name" placeholder="Type your username">
+            </div>
+            <div class="submit">
+                     <button  onclick="show()"> Let's Talk</button>
+            </div>
+            
+
+        </div>
+    </div>
+    </div>
+    <div id="chat" style="display: none;">
+    <div id="message-container"></div>
+    <form id="send-container">
+      <input type="text" id="message">
+      <button type="submit" id="send-button" >Send button</button>
+    </form>
+</div>
+<footer>
+    <p>Coded By Meenakshi | 2020 </p>
+</footer>
+    <script   defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script   defer src="./js/app.js"></script>
+</body>
+</html>

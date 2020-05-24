@@ -1,0 +1,166 @@
+
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+.navbar{
+   margin:20px 140px;
+   padding:20px;
+   border-bottom: 1px solid grey;
+   
+}
+
+.menu{
+    display: flex;
+    flex-direction: row; 
+
+}
+
+
+.register{
+    margin:20px 140px;
+    padding:20px;
+    border-bottom: 1px solid grey;
+
+}
+.card-container{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 50vh;
+    width: 50vw;
+    padding:20px;
+    padding-top:80px;
+    padding-bottom: auto;
+}
+.card-container p{
+    display: inline;
+    width: 97%;
+    font-family: monospace;
+    font-size: 2rem;
+    color: peru;
+    margin:5px;
+}
+input[type="text"] {
+    display: inline;
+padding : 10px;
+    width: 97%;
+    font-family: digital;
+    font-size: 2rem;
+    color: peru;
+    margin:5px;
+  }
+  ::-webkit-input-placeholder {
+    color: peachpuff;
+    font-size: 2rem
+  }
+  ::-moz-placeholder {
+    color: peachpuff;
+    font-size: 2rem;
+  }
+  :-ms-input-placeholder {
+    color: peachpuff;
+    font-size: 2rem;
+  }
+  ::placeholder {
+    color: peachpuff;
+    font-size: 2rem;
+    
+  }
+.submit button{
+    display: inline;
+    width: 97%;
+    height: 50px;
+    font-family: monospace;
+    font-size: 2rem;
+    color: peru;
+    margin: 5px;
+}
+
+.submit button:hover{
+  background-color: peru;
+  color:black;
+}
+#message-container{
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 1px solid grey;
+  height: 90vh;
+  width: 90vw;
+  padding:20px;
+  padding-top:80px;
+  padding-bottom: auto;
+  font-family:monospace;
+  font-size: 2rem;
+  color: peru;
+}
+#message{
+  display: inline;
+  font-family: monospace;
+  font-size: 2rem;
+  color: peru;
+
+}
+::-webkit-input-placeholder {
+  color: peachpuff;
+  font-size: 2rem
+}
+::-moz-placeholder {
+  color: peachpuff;
+  font-size: 2rem;
+}
+:-ms-input-placeholder {  color: peachpuff;
+  font-size: 2rem;
+}
+::placeholder {
+  color: peachpuff;
+  font-size: 2rem;
+  
+}
+#send-container{
+  margin-left:5px;
+  margin-right:5px;
+  align-items: center;
+}
+#send-button{
+  display: inline;
+  height: 50px;
+  padding:10px;
+  font-family: monospace;
+  font-size: 2rem;
+  color: peru;
+  border: none;
+  outline: none;
+}
+#send-button:hover{
+  background-color: peru;
+  color:black;
+  border-radius: 10px;
+}
+#message{
+  width: 80%;
+  margin-left:70px ;
+  margin-right:auto ;
+  padding: 5px;
+  border-radius: 5px;
+}
+.logo{
+  font-family: monospace;
+  font-size: 3rem;
+
+}
+footer{
+  position: absolute;
+ margin-left: 650px;
+ margin-right: auto;
+  bottom:10px;
+}
