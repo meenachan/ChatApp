@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/instyle.css">
+   
     <title>ChatRoom</title>
 </head>
 <body>
@@ -16,8 +19,8 @@
     <div  class="register">
         <div class="card-container">
             <div class="name">
-                <p>User Name</p>
-                <input type="text" id="user-name" placeholder="Type your username">
+                <p></p>
+                <input type="text" id="user-name" placeholder="Name">
             </div>
             <div class="submit">
                      <button  onclick="show()"> Let's Talk</button>
@@ -31,13 +34,13 @@
     <div id="message-container"></div>
     <form id="send-container">
       <input type="text" id="message">
-      <button type="submit" id="send-button" >Send button</button>
+      <button type="submit" id="send-button" >SEND</button>
     </form>
 </div>
 <footer>
-    <p id="footer">Coded By Meenakshi | 2020 </p>
+    <p id="footer">Designed & Developed By Meenakshi | 2020 </p>
 </footer>
-    <script   defer src="https://localhost:3000/socket.io/socket.io.js"></script>
+    <script   defer src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script   defer src="./js/app.js"></script>
 </body>
 </html>

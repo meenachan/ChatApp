@@ -16,18 +16,19 @@ appendMessage("You Joined")
 socket.emit('new-user',name)
 
 socket.on('chat-message', data=>{
-appendMessage(`${data.name} :${data.message}`)
+appendMessage(`${data.name}: ${data.message}`)
 })
 socket.on('user-connected', name=>{
-appendMessage(`${name} connected`)
+appendMessage(`${name} Connected`)
+
 })
 socket.on('user-disconnected', name=>{
-appendMessage(`${name} disconnected`)
+appendMessage(`${name} Disconnected`)
 })
 messageForm.addEventListener('submit', e=>{
     e.preventDefault()
     const message = messageInput.value
-    appendMessage(`You :${message}`)
+    appendMessage(`You: ${message}`)
     socket.emit('send-chat-message',message)
     messageInput.value=''
 })
